@@ -1,0 +1,17 @@
+name: NecroZAtp
+version: '${project.version}'
+main: org.necrozstudios.necrozatp
+
+commands:
+  picareta:
+    description: Dá uma picareta personalizada ao jogador.
+    usage: /picareta
+    permission: necroz.givepickaxe
+  necrozreload:
+    description: Recarrega o plugin.
+    usage: /necrozreload
+    permission: necrozstudios.reload
+permissions:
+  necrozstudios.reload:
+    description: Permite recarregar o plugin.
+    default: op
